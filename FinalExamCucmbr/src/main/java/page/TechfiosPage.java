@@ -23,6 +23,7 @@ public class TechfiosPage extends BasePage {
   //Method to interact with the Elements
   //Click on set SkyBlue Background Button
     public void clickSetSkyBlueBackgroundButton() {
+    	
     	SetSkyBlueBackgroundButton.click();
     }
  //Assertion for skyblue button is enabled
@@ -31,11 +32,12 @@ public class TechfiosPage extends BasePage {
     }
 //Click on set White Background Button
     	 public void clickSetWhiteBackgroundButton() {
+    		 
     		 SetWhiteBackgroundButton.click();
     		 }
  //Validating if the button is enabled
     	 public boolean isSetWhiteBackgroundButtonEnabled() {
-    	    	return SetWhiteBackgroundButton.isEnabled();	 
+    		 return SetWhiteBackgroundButton.isEnabled();	 
     	 }
     	 //validate skyblue color
     	public String getSkyBluePageColor() {
